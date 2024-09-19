@@ -13,7 +13,7 @@ class AuthService {
     await _firebaseAuth
         .verifyPhoneNumber(
       timeout: Duration(seconds: 30),
-      phoneNumber: "+91$phone",
+      phoneNumber: "+251$phone",
       verificationCompleted: (phoneAuthCredential) async {
         return;
       },

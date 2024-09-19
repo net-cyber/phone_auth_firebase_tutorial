@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "1041206382731",
-    "project_id": "phone-auth-15bdb",
-    "storage_bucket": "phone-auth-15bdb.appspot.com"
+    "project_number": "109702891880",
+    "firebase_url": "https://addis-ride-cb04b-default-rtdb.firebaseio.com",
+    "project_id": "addis-ride-cb04b",
+    "storage_bucket": "addis-ride-cb04b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1041206382731:android:3bd02e417c5123ef45448e",
+        "mobilesdk_app_id": "1:109702891880:android:13623a19dbb652770ceedd",
         "android_client_info": {
           "package_name": "com.example.phone_auth_firebase_tutorial"
         }
@@ -15,7 +16,45 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDNgBCk6Y24KvTFf-Kz5lsMaCgPN7YDZLA"
+          "current_key": "AIzaSyAR2CkwmIQd7-ev4q2jIq5TMcy-jpVKAyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109702891880:android:d89654ec0caa3efa0ceedd",
+        "android_client_info": {
+          "package_name": "com.genesis.addis_ride_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR2CkwmIQd7-ev4q2jIq5TMcy-jpVKAyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109702891880:android:ca8726093cbf698d0ceedd",
+        "android_client_info": {
+          "package_name": "com.genesis.addis_ride_passenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR2CkwmIQd7-ev4q2jIq5TMcy-jpVKAyQ"
         }
       ],
       "services": {

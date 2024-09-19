@@ -53,10 +53,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDNgBCk6Y24KvTFf-Kz5lsMaCgPN7YDZLA',
-    appId: '1:1041206382731:android:3bd02e417c5123ef45448e',
-    messagingSenderId: '1041206382731',
-    projectId: 'phone-auth-15bdb',
-    storageBucket: 'phone-auth-15bdb.appspot.com',
+    apiKey: 'AIzaSyAR2CkwmIQd7-ev4q2jIq5TMcy-jpVKAyQ',
+    appId: '1:109702891880:android:13623a19dbb652770ceedd',
+    messagingSenderId: '109702891880',
+    projectId: 'addis-ride-cb04b',
+    databaseURL: 'https://addis-ride-cb04b-default-rtdb.firebaseio.com',
+    storageBucket: 'addis-ride-cb04b.appspot.com',
   );
 }

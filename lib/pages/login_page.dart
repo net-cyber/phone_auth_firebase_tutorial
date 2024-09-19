@@ -112,13 +112,12 @@ class _LoginPageState extends State<LoginPage>
                         controller: _phoneContoller,
                         keyboardType: TextInputType.phone,
                         decoration: InputDecoration(
-                            prefixText: "+91 ",
+                            prefixText: "+251 ",
                             labelText: "Enter you phone number",
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(32))),
                         validator: (value) {
-                          if (value!.length != 10)
-                            return "Invalid phone number";
+                          if (value!.length != 9) return "Invalid phone number";
                           return null;
                         },
                       ),
